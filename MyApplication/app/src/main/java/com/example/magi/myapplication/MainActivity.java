@@ -24,8 +24,13 @@ public class MainActivity extends AppCompatActivity {
         //test
         tv_title = (TextView) findViewById(R.id.tv_title);
 
-        setViews();
+//        setViews();
         Log.d(TAG, "onCreate() called with: savedInstanceState = [" + savedInstanceState + "]");
+
+
+
+        MyAsyncTask myAsyncTask = new MyAsyncTask();
+        myAsyncTask.execute();
     }
 
     public void setViews() {
