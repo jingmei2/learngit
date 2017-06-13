@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         //test
         tv_title = (TextView) findViewById(R.id.tv_title);
+//
+
 
 //        setViews();
         Log.d(TAG, "onCreate() called with: savedInstanceState = [" + savedInstanceState + "]");
